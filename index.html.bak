@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATC Alan Turing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;700;800&family=League+Spartan:wght@700;800;900&family=Caveat:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid-background"></div>
+
+    <!-- Top right cross decoration -->
+    <div class="bg-cross top-right">+</div>
+
+    <!-- Right side circuit lines -->
+    <div class="circuit-lines">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="ATC LOGO ONLY.svg" alt="ATC Alan Turing Logo" class="nav-logo">
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">TEAM</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" class="btn btn-outline">
+                    <span class="triangle-icon">▲</span> JOIN ATC
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Main Content -->
+        <main class="hero">
+            <!-- Sidebar Lines -->
+            <div class="sidebar">
+                <div class="sidebar-line"></div>
+                <ul class="sidebar-text">
+                    <li>IDEAS</li>
+                    <li>PEOPLE</li>
+                    <li>TECHNOLOGY</li>
+                    <li>IMPACT</li>
+                </ul>
+                <div class="sidebar-bottom-line"></div>
+            </div>
+
+            <div class="hero-content">
+                <!-- Top text -->
+                <div class="subtitle">
+                    // MORE THAN A CLUB
+                </div>
+
+                <!-- Small Logo -->
+                <div class="main-logo-small">
+                    <img src="ATC LOGO.svg" alt="ATC Logo Small">
+                </div>
+
+                <!-- Huge Heading -->
+                <div class="hero-heading">
+                    <span class="we-are">we are</span>
+                    <span class="solid-team">solid team</span>
+                </div>
+
+                <!-- Divider text -->
+                <div class="divider-text">
+                    <span class="line"></span>
+                    IDEAS &nbsp; / &nbsp; PEOPLE &nbsp; / &nbsp; TECHNOLOGY &nbsp; / &nbsp; IMPACT
+                    <span class="line"></span>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">GET INVOLVED &rarr;</a>
+                    <a href="#" class="btn btn-secondary">EXPLORE EVENTS &rarr;</a>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>MEMBERS</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>20+</h3>
+                        <p>EVENTS</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>PROJECTS</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>&infin;</h3>
+                        <p>POSSIBILITIES</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Robot Image on the left side of the hero content -->
+            <div class="robot-container">
+                <img src="hero robot.png" alt="Robot Mascot" class="robot-img">
+            </div>
+        </main>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="about-header">
+                <div class="section-tag">// 01. WHO WE ARE</div>
+                <h2 class="about-title">DISRUPTING THE NORM.<br><span class="outline-text">ENGINEERING REALITY.</span></h2>
+                <p class="about-lead">
+                    Named in tribute to <strong>Alan Turing</strong>—the pioneer of modern computation, cryptography, and artificial intelligence—the <strong>Alan Turing Club (ATC)</strong> is a collective of visionary developers, designers, and innovators passionate about pushing computational frontiers.
+                </p>
+            </div>
+
+            <!-- Pillars Grid -->
+            <div class="about-grid">
+                <!-- Card 1 -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <span class="card-num">01</span>
+                        <span class="card-badge">FOUNDATION</span>
+                    </div>
+                    <h3 class="card-title">RESEARCH & CODE</h3>
+                    <p class="card-desc">
+                        From low-level systems and distributed architectures to deep neural networks, we dive deep into computer science fundamentals to engineer resilient software.
+                    </p>
+                    <div class="card-footer">
+                        <span class="card-tag">#ALGORITHMS</span>
+                        <span class="card-tag">#SYSTEMS</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <span class="card-num">02</span>
+                        <span class="card-badge">COMMUNITY</span>
+                    </div>
+                    <h3 class="card-title">COLLABORATIVE FORCE</h3>
+                    <p class="card-desc">
+                        A vibrant ecosystem where first-year explorers collaborate directly with senior leads. Peer-to-peer sprints and code reviews transform curiosity into production capability.
+                    </p>
+                    <div class="card-footer">
+                        <span class="card-tag">#MENTORSHIP</span>
+                        <span class="card-tag">#OPEN_SOURCE</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="about-card">
+                    <div class="card-header">
+                        <span class="card-num">03</span>
+                        <span class="card-badge">IMPACT</span>
+                    </div>
+                    <h3 class="card-title">HIGH-STAKES BUILDS</h3>
+                    <p class="card-desc">
+                        We ideate, build, and ship. Competing across premier national hackathons and running open hardware/software labs, ATC teams build technology that creates measurable impact.
+                    </p>
+                    <div class="card-footer">
+                        <span class="card-tag">#HACKATHONS</span>
+                        <span class="card-tag">#PRODUCT_LAB</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quote & Highlights Banner -->
+            <div class="about-banner">
+                <div class="banner-left">
+                    <div class="quote-symbol">“</div>
+                    <blockquote class="turing-quote">
+                        We can only see a short distance ahead, but we can see plenty there that needs to be done.
+                    </blockquote>
+                    <cite class="quote-author">// ALAN TURING, 1950</cite>
+                </div>
+                <div class="banner-stats">
+                    <div class="banner-stat-box">
+                        <span class="b-val">50+</span>
+                        <span class="b-lbl">HACKATHON WINS</span>
+                    </div>
+                    <div class="banner-stat-box">
+                        <span class="b-val">100%</span>
+                        <span class="b-lbl">STUDENT-DRIVEN</span>
+                    </div>
+                    <div class="banner-stat-box">
+                        <span class="b-val">30+</span>
+                        <span class="b-lbl">OPEN REPOSITORIES</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        if (mobileMenuToggle && navLinks) {
+            mobileMenuToggle.addEventListener('click', () => {
+                mobileMenuToggle.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenuToggle.classList.remove('active');
+                    navLinks.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
